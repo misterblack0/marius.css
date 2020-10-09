@@ -1,0 +1,14 @@
+* {box-sizing: border-box}
+[hidden] {display: none !important}
+[disabled] {pointer-events:none; opacity: 0.3}
+.horizontal {display: flex; flex-direction: row; justify-content: space-between}
+.vertical {display: flex; flex-direction: column}
+.center {justify-content: center; align-items: center}
+.flex {flex: 1}
+html {
+  --spacing-xs: 0.8rem;
+  --spacing: 2.4rem;
+  --spacing-s: 1.2rem;
+  --spacing-m: 3.6rem;
+  font-size: 62.5%;
+}
